@@ -9,3 +9,8 @@ INSERT INTO books (name) VALUES ('The Book Thief');
 INSERT INTO books (name) VALUES ('Animal Farm');
 INSERT INTO books (name) VALUES ('Gone with the Wind');
 
+INSERT INTO users_books (user_id, book_id) VALUES (1,1);
+INSERT INTO users_books (user_id, book_id) VALUES (1,2);
+INSERT INTO users_books (user_id, book_id) VALUES (1,3);
+INSERT INTO users_books (user_id, book_id) VALUES (2,1);
+INSERT INTO users_books (user_id, book_id) VALUES (2,3);
