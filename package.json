@@ -1,0 +1,30 @@
+{
+  "name": "users-books",
+  "version": "1.0.0",
+  "description": "A postgres database example for getting a user's list of all books",
+  "main": "index.js",
+  "dependencies": {
+    "env2": "^2.2.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "pg": "^7.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yosefalnajjarofficial/users-books.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yosefalnajjarofficial/users-books/issues"
+  },
+  "homepage": "https://github.com/yosefalnajjarofficial/users-books#readme"
+}
